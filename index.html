@@ -3,18 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Best Filipino Recipes</title>
 </head>
 <body>
-    <h1>Filipino Food Recipes</h1>
-    <img src="https://www.tastingtable.com/img/gallery/14-popular-filipino-foods-you-have-to-try-at-least-once/l-intro-1725652895.jpg" alt="Picture of Filipino flag and food" width="800">
-    <p>A mouthwatering spread of Filipino favorites featuring classic silog breakfast with longganisa and sunny-side-up eggs, glazed chicken wings with green onions, crispy lumpia spring rolls, spicy kare-kare stew, and sinigang soup with fish and vegetables - all set against the backdrop of the Philippine flag, celebrating the rich culinary heritage of the Philippines.</p>
-    
-    <h3>Top Filipino Food:</h3>
-    <ul>
-        <li><a href="./recipes/adobo.html">Filipino Chicken Adobo Recipe</a></li>
-        <li><a href="./recipes/sinigang.html">Sinigang na Baboy (Pork Sinigang Recipe)</a></li>
-        <li><a href="./recipes/sinangag.html">Sinangag (Filipino Garlic Fried Rice)</a></li>
-    </ul>
+    <header class="hero">
+        <div class="container">
+            <h1 class="title">Filipino Food Recipes</h1>
+            <p class="subtitle">Discover the Rich Flavors of Philippine Cuisine</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="featured-image">
+            <img src="https://www.tastingtable.com/img/gallery/14-popular-filipino-foods-you-have-to-try-at-least-once/l-intro-1725652895.jpg" 
+                 alt="Picture of Filipino flag and food" 
+                 class="main-image">
+            <p class="image-caption">
+                A mouthwatering spread of Filipino favorites featuring classic silog breakfast 
+                with longganisa and sunny-side-up eggs, glazed chicken wings with green onions, 
+                crispy lumpia spring rolls, spicy kare-kare stew, and sinigang soup with fish 
+                and vegetables - all set against the backdrop of the Philippine flag, celebrating 
+                the rich culinary heritage of the Philippines.
+            </p>
+        </section>
+
+        <section class="recipes-section">
+            <h2 class="section-title">Top Filipino Recipes</h2>
+            <div class="recipe-grid">
+                <a href="./recipes/adobo.html" class="recipe-card">
+                    <h3>Filipino Chicken Adobo</h3>
+                    <div class="recipe-overlay"></div>
+                </a>
+                <a href="./recipes/sinigang.html" class="recipe-card">
+                    <h3>Sinigang na Baboy</h3>
+                    <div class="recipe-overlay"></div>
+                </a>
+                <a href="./recipes/sinangag.html" class="recipe-card">
+                    <h3>Sinangag</h3>
+                    <div class="recipe-overlay"></div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Filipino Recipes. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
